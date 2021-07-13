@@ -16,18 +16,33 @@ import copy
 from datetime import datetime, timedelta, timezone
 
 Hololive = {
-    "UCp6993wxpyDPHUpavwDFqgg": [
-        "ときのそら",
-        "https://yt3.ggpht.com/a/AATXAJzGvZJuJ92qM5WcfBcDZqPFSj_CGIEYp9VFmA=s288-c-k-c0xffffffff-no-rj-mo"
+    "UCDqI2jOz0weumE8s7paEk6g": [
+        "ロボ子さん",
+        "https://yt3.ggpht.com/ytc/AKedOLTVWKjrovP0tGtguup9TYZicykceA45olVmEr2kvQ=s88-c-k-c0x00ffffff-no-rj"
     ],
-    
-    "UC1uv2Oq6kNxgATlCiez59hw": [
-        "常闇トワ",
-        "https://yt3.ggpht.com/a/AATXAJxqyp7DhLSSrSYRc5HaLcq5QvJvRp3jDnxTeA=s288-c-k-c0xffffffff-no-rj-mo"
+        "UC-hM6YJuNYVAmUWxeIr9FeA": [
+        "さくらみこ",
+        "https://yt3.ggpht.com/ytc/AKedOLRNGCUT1awYh91CbTr6r_v_6KspwpyAS4ZUxlucFQ=s88-c-k-c0x00ffffff-no-rj"
     ],
-    "UCa9Y57gfeY0Zro_noHRVrnw": [
-        "姫森ルーナ",
-        "https://yt3.ggpht.com/a/AATXAJzzirDjRJkofWVeoE6gVjodJ0VXaJhy4b_CLg=s288-c-k-c0xffffffff-no-rj-mo"
+        "UC5CwaMl1eIgY8h02uZw7u8A": [
+        "星街すいせい",
+        "https://yt3.ggpht.com/ytc/AKedOLSAm13gTESsu39zgJ1TYb649BiGqYa_XCv5C6Lu=s88-c-k-c0x00ffffff-no-rj"
+    ],
+        "UCXTpFs_3PqI41qX2d9tL2Rw": [
+        "紫咲シオン",
+        "https://yt3.ggpht.com/ytc/AKedOLRJYi-cOhqB22oEjWfdz__fHcs9iGjwz5UkPzvd-w=s88-c-k-c0x00ffffff-no-rj"
+    ],
+        "UCvzGlP9oQwU--Y0r9id_jnA": [
+        "大空スバル",
+        "https://yt3.ggpht.com/ytc/AKedOLRaQJl61Pxhsnrzz50wirogPn18pPUYL0YFAauj=s88-c-k-c0x00ffffff-no-rj"
+    ],
+        "UCCzUftO8KOVkV4wQG1vkUvg": [
+        "宝鐘マリン",
+        "https://yt3.ggpht.com/ytc/AKedOLQFVN7wLaJFbdPU56qOkNlbkrMneYpTmGpneRig=s88-c-k-c0x00ffffff-no-rj"
+    ],
+        "UCZlDXzGoo7d44bwdNObFacg": [
+        "天音かなた",
+        "https://yt3.ggpht.com/ytc/AKedOLTgDWWow5gGLYfPKHxF8oNHegeUngIdT5HxDBo4=s88-c-k-c0x00ffffff-no-rj"
     ],
 
 } #配信者のチャンネルID, 配信者名, アイコン画像のURLのリスト
