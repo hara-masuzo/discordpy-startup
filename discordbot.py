@@ -6,6 +6,9 @@ bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
 
 
+bot.run(token)
+
+
 import time
 import requests
 import json
@@ -29,11 +32,11 @@ Hololive = {
 
 } #配信者のチャンネルID, 配信者名, アイコン画像のURLのリスト
 
-webhook_url_Hololive = '配信開始チャンネル用のwebhookリンク' #ホロライブ配信開始
-webhook_url_Hololive_yotei = '配信開始予定用のwebhookリンク' #ホロライブ配信予定
+webhook_url_Hololive = 'https://discord.com/api/webhooks/864352021423456297/EmUNj_-207qUQZMuqGy8ctAMMMdzeeOarT6H6jjDdOLIPShEbVU0dN0x_6eiZH4Zb_SS' #ホロライブ配信開始
+webhook_url_Hololive_yotei = 'https://discord.com/api/webhooks/864352355528474664/pFehoGCIuP5Y6isyFQOMVVNlvslrPWWke1NKwQ3kgbJ0UVGIzoJj0pTPI97nFzo-UntN' #ホロライブ配信予定
 broadcast_data = {} #配信予定のデータを格納
 
-YOUTUBE_API_KEY = [複数のAPI(str型)をリストで管理]
+YOUTUBE_API_KEY = [] #複数のAPI(str型)をリストで管理
 
 def dataformat_for_python(at_time): #datetime型への変換
     at_year = int(at_time[0:4])
@@ -128,5 +131,3 @@ while True:
     check_schedule(now_time, broadcast_data)
     time.sleep(60)
 
-
-bot.run(token)
